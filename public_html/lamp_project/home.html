@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+</head>
+<body style="font-family:'Times New Roman', Times, serif;">
+
+    <p><a href="index.php" style="float:right">Logout</a></p>
+
+    <h2 style="text-align:center;
+               font-size:30px;
+               font-family:Verdana 'Times New Roman', Times, serif sans-seriff;
+               color:#000099;">
+        Mini - Craiglist</h2>
+
+   <a href="newpost.php" style="margin: 25px 0; display: block; float: left; width: 100%;"> New Post </a>
+
+    <form method = "post" action = "search.php" style="float:left; display: contents;">
+        Search :
+        <p style="display: inline-block;"><input type ="text" name="search">
+        <input type="Submit" value="Submit">
+        <input type="reset" value="Reset"></p>
+    </form>
+    <br>
+
+    <table border="1" style="width:100%">
+           <tr>
+              <th><b>For Sale</b></th>
+              <th><b>Services</b></th>
+              <th><b>Jobs</b></th>
+              <th><b>Country</b></th>
+              <th><b>Location</b></th>
+           </tr>
+           <tr>
+              <td> <a href="list.php?link=antiques"> Antiques </a></td>
+              <td> <a href="list.php?link=automotive"> Automotive </a></td>
+              <td> <a href="list.php?link=business"> Business </a></td>
+              <td> <a href="list.php?link=usa"> USA </a></td>
+              <td> <a href="list.php?link=cupertino"> Cupertino </a></td>
+           </tr>
+           <tr>
+              <td> <a href="list.php?link=boats"> Boats </a></td>
+              <td> <a href="list.php?link=lesson"> Lesson </a></td>
+              <td> <a href="list.php?link=marketing"> Marketing </a></td>
+              <td> <a href="list.php?link=india"> India </a></td>
+              <td> <a href="list.php?link=mumbai"> Mumbai </a></td>
+           </tr>
+           <tr>
+              <td> <a href="list.php?link=computer"> Computer </a></td>
+              <td> <a href="list.php?link=garden"> Farm+Garden </a></td>
+              <td> <a href="list.php?link=engineering"> Engineering </a></td>
+              <td> <a href="list.php?link=sweden"> Sweden </a></td>
+              <td> <a href="list.php?link=stockholm"> Stockholm </a></td>
+           </tr>
+    </table>
+    <br> <br> <br> <br>
+    <p><center><a href="https://www.craigslist.org/about/terms.of.use.en-us">Terms and Conditions</a> |
+    <a href ="about.php">About Us</a> |
+    <a href ="help.php"> Help</a></center></p>
+</body>
+</html>

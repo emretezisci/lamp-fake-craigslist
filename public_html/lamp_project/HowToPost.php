@@ -1,0 +1,1 @@
+<a href="newpost.php" style="margin: 12px 0; display: inline-block;"> Click here to create a new post </a>
